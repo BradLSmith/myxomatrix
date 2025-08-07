@@ -143,7 +143,7 @@ The setup interface allows you to configure:
 3. Videos are saved in the `simulation_recordings/` folder
 4. Processing includes a logo intro and fade effects
 
-**Note**: Video recording requires significant disk space for temporary frames. A 5-minute recording can use several GB temporarily.
+**Note**: Video recording requires significant disk space for temporary frames.
 
 ### Data Analysis
 
@@ -224,8 +224,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 If you use this software in your research, please cite:
 
 ```
-[Your Name] (2025). The Myxomatrix: An Artificial Life Simulation with Evolved Neural Networks. 
-GitHub repository: https://github.com/yourusername/myxomatrix
+[Your Name] (2025). The Myxomatrix: Evolving Population-level Complexity in Darwinian
+Artificial Life. GitHub repository: https://github.com/yourusername/myxomatrix
 ```
 
 ## Acknowledgments
@@ -238,4 +238,4 @@ This project builds upon concepts from:
 
 ---
 
-For questions, issues, or collaboration opportunities, please open an issue on GitHub or contact [your.email@domain.com].
+For questions, issues, or collaboration opportunities, please open an issue on GitHub or contact [brad.luke.smith@outlook.com].
