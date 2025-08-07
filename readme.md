@@ -1,6 +1,6 @@
 # The Myxomatrix
 
-An artificial life simulation featuring evolved neural networks, ecological dynamics, and emergent behaviors. Watch as agents with evolving neural networks compete for resources, reproduce, and adapt in a dynamic environment.
+An artificial life simulation that evolves population level complexity without predefinition of a 'goal' state via a fitness function or convoluted initial conditions. 
 
 ## Features
 
