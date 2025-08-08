@@ -824,6 +824,8 @@ def initialise_environment(config, myxomatrix):
                     agent = myxomatrix.add_agent(genome, cell, orientation, mass, NUM_COMMUNICATION_SIGNALS)
                 cell.resource_level = 10
 
+    print_controls()
+
 
 def reinitialise_simulation(config, myxomatrix):
     """Reset the simulation to its initial state."""
@@ -1175,6 +1177,20 @@ def video_progress_callback(message, percentage):
     global video_progress_message, video_progress_percentage
     video_progress_message = message
     video_progress_percentage = percentage
+
+def print_controls():
+    """Print the available controls for the simulation."""
+    print("\n" + "="*50)
+    print("          SIMULATION CONTROLS")
+    print("="*50)
+    print("R - Restart simulation with new random seed")
+    print("Q - Quit to setup interface")
+    print("V - Start/Stop video recording")
+    print("C - Cancel current video recording")
+    print("ESC/Close Window - Exit program")
+    print("="*50)
+    print("Video files are saved as MP4 in 'simulation_recordings' in the current directory")
+    print("="*50 + "\n")
 
 
 if __name__ == "__main__":
