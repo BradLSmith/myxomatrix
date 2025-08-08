@@ -7,12 +7,12 @@
             "y_min": 0,
             "x_max": 199,
             "y_max": 199,
-            "num_plants": 2000,
+            "num_plants": 4200,
             "tau_min": 0,
-            "tau_max": 3000,
-            "r_min": 2.0,
-            "r_max": 6.0,
-            "num_agents": 1
+            "tau_max": 3200,
+            "r_min": 0.0,
+            "r_max": 3.2,
+            "num_agents": 10
         }
     ],
     "walls_top_bottom": true,
@@ -34,5 +34,5 @@
         "Progenitor Update Threshold": 500.0
     },
     "agents_can_move": false,
-    "seed": "1758488102"
+    "seed": "RANDOM"
 }
